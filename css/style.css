@@ -1,0 +1,96 @@
+/* Aqui primero defino el estilo de letra, mediante que fuente uso y también su source para despúes añadirlo, cómo quiero está letra en todo se lo añado al
+container directamente */
+@font-face {
+    font-family:"Comfortaa";
+    src: url(../Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  }
+
+  .container-fluid {
+    font-family: "Comfortaa";
+  }
+  /* En el encabezado primero he puesto la imagen del zip y a continuación le he puesto el texto blanco y le he puesto el width al 100% para que sea el máximo
+  de ancho y el background-size que cubra por completo el fondo y lo más importante el Height para que ocupe lo que mide más o menos una pantalla aparte del
+  tamaño de la fuente acorde al del ejemplo del Desktop. */
+  #encabezado {
+    background-image: url(../img/banner-2.jpg);
+    color: black;
+    align-content:center ;
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    font-size: 200%;
+  }
+
+  /* Al segundo encabezado simplemente le he dado primero al 200% el tamaño de la fuente para que se vean mejor y acorde al ejemplo */
+  #encabezado_2 {
+    font-size: 200%;
+    
+  }
+
+  /* Aqui hacemos lo mismo que el anterior pero con 120% en todas las etiquetas que tengan el ID de "texto_1" */
+  #texto_1 {
+    
+    font-size: 120%;
+  }
+
+  #img_1 {
+    height: 90%;
+    width: 90%;
+  }
+
+  #row_2 {
+   justify-content: center;
+  }
+
+  #row_3 {
+    width: 100%;
+    background-color: rgb(64, 224, 181);
+  }
+
+  #row_6 {
+    background-color: black;
+    color: aliceblue;
+  }
+
+  #row3_texto1 {
+    background-color: rgb(64, 224, 187);
+    font-size: 260%;
+   
+   text-align: center;
+  }
+  
+
+  #imagenes-1 {
+    width: 60%;
+    height: 60%;
+  }
+
+  #imagenes-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+.textos_1 {
+  text-align: center;
+}
+
+#texto_2 {
+  font-size: 120%;
+}
+
+#encabezado_3 {
+  font-size: 200%;
+  width: 60%;
+}
+
+#row5_texto1 {
+  background-color: rgb(64, 77, 224);
+  font-size: 260%;
+ text-align: center;
+ align-items: center;
+ height: 150%;
+}
+
+  
